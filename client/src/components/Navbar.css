@@ -1,0 +1,86 @@
+.navbar {
+    width: 71%;
+    height: 130px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 220px;
+    background-color: transparent;
+}
+
+.logo {
+    width: 11rem;
+}
+
+ul {
+    display: flex;
+    gap: 2rem;
+    color: #b0b0afff;
+    font-size: 16px;
+    font-weight:550;
+}
+
+.breakfast {
+    list-style-type:none;;
+    color: #F0972A;
+}
+
+ul li :before {
+    color: #F0972A;
+}
+
+span {
+    color: #F0972A;
+}
+
+.btn-1 {
+    background-color: #F8F7F2;
+    border-color: #b0b0afff;
+    border-bottom-color: #b0b0afff ;
+    color: #b0b0afff;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.btn-2 {
+    background-color: #96BB36;
+    border-color: transparent;
+    color: white;
+    width: 10rem;
+    height: 2.1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 13px;
+}
+
+.my-recipes {
+    color: #A3C351;
+    font-weight: 600;
+    text-decoration: underline 2px;
+    text-decoration-color: #b0b0afff;
+}
+
+.my-profile {
+    color: #F0972A;
+    font-weight: 600;
+    text-decoration: underline 2px;
+    text-decoration-color: #b0b0afff;
+}
+
+.logout {
+    color: #b0b0afff;
+    font-weight: 600;
+    text-decoration: underline 2px;
+    text-decoration-color: #b0b0afff;
+}

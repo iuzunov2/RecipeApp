@@ -1,0 +1,136 @@
+.modal {
+    display: inline-block;
+    margin: 1rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.home {
+    margin: 100px 250px;
+}
+
+.container {
+    width: fit-content;
+}
+
+img {
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.description {
+    width: 300px;
+    font-size: 14px;
+    color: #c8c8c8;
+    text-align: center;
+}
+
+h2 {
+    padding: 10px;
+    text-align: center;
+    color: #F2A74B;
+}
+
+h1 {
+    color: #96BB36;
+}
+
+.rating-field {
+    display: flex;
+    text-align: center;
+}
+
+.card-icons {
+    width: 15px;
+    float: left;
+    margin: 4px 6px;
+}
+
+/*------------------------ Pop up -----------*/
+
+.popup,
+.overlay-active {
+    background-color: hsla(0, 0%, 95%, 0.8);
+}
+
+.popup {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49, 49, 49, 0.8);
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #f1f1f1;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 750px;
+    max-height: 500px;
+    display: flex;
+}
+
+.preparation ul li img {
+    width: 10px;
+}
+
+button img {
+    width: 20px;
+}
+
+.left-wrapper h2 {
+    color: #F3B161;
+}
+
+.left-wrapper img {
+    border-radius: 5px;
+}
+
+.best-served-for {
+    width: 300px;
+}
+
+.best-served-for {
+    display: flex;
+    line-height: 1px;
+    color: #96BB36;
+}
+
+.best-served-for span {
+    position: relative;
+    top: 0.875rem;
+    left: 8.125rem;
+    margin: 0;
+    padding: 3px;
+    background-color: #96BB36;
+    height: 1.563rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+    color: white;
+}
+
+.right-wrapper h4 {
+    color: #96BB36;
+}
+
+.right-wrapper button {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+}

@@ -1,0 +1,37 @@
+.myprofile {
+    min-height: calc(100vh - 150px - 80px);
+}
+
+.myprofile h2 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 260px;
+    color: #96BB36;
+}
+
+.wrapper-myprofile {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin: 0 150px 100px auto;
+}
+
+
+.avatar-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar-btn {
+    margin: 20px;
+    border-radius: 4px;
+    border-color: #CECECC;
+    color: #373735d2;
+    background-color: #F8F7F2;
+}
+
+.avatar {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}

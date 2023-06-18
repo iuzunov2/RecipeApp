@@ -1,0 +1,10 @@
+.register {
+    min-height: calc(100vh - 150px - 80px);
+}
+
+.register h2 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 260px;
+    color: #96BB36;
+}
